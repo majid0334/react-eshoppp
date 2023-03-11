@@ -1,9 +1,12 @@
 {
+  "homepage": "https//majid0334.github.io/react-eshoppp",
   "name": "hacker-stories",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm ruin build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
