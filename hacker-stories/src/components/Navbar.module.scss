@@ -20,7 +20,7 @@ li {
   display: flex;
   align-items: center;
   flex-direction: row;
- /*  .header{
+  /*  .header{
     padding-right: 10px;
   } */
 
@@ -56,12 +56,10 @@ li {
     color: #ffffff;
     background-color: #ff7e1b;
   }
-   
-  .pic{
+
+  .pic {
     height: 50px;
   }
-  
-  
 }
 
 //pop up for amount of items bought
@@ -75,6 +73,7 @@ li {
   height: 256px;
   position: absolute;
   z-index: 999;
+  right: 100px;
 
   .cart {
     font-weight: 700;
